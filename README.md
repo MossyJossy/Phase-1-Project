@@ -1,64 +1,47 @@
-# Movie Review Business Analysis
+# Where to Start in Movie Production
 
 **Authors**: Jocelyn Fisher
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+Movie’s have never been more popular, or more rewarding to make. But with so much out there to compete against, it can be daunting for a new movie production studio to know where to begin. To tackle this business problem and to see what is considered a successful film in this day and age, this project delves into the various different genres of movies to find the trends of how they rank in reviews and revenue. Using data sourced from one of the most prevalent rating sites, [Rotten Tomatoes](https://www.rottentomatoes.com), the data analysis finds that the genre Science Fiction & Fantasy, with a movie rating of PG-13, to be the most profitable type of movie. Our recommendations therefore suggest that Microsoft’s new production studio focus on this specific combination for their first production to ensure the best start to the business.
+
 
 ## Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create. 
+The core reason the studio was created is because of the enticing profits other large businesses are making from this type of commercial venture, however this massive competition also poses the main problem faced. In order to make an impact on such a large industry, the studio needs to be able to get above the rest by looking at what a successful type of movie actually is. For the business world, this would be considered the gross box office or revenue a film makes. Understanding what makes a pofitable movie will ensure not only a great start, but a continuous lucrative enterprise for years to come.
 
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-* Your analysis should yield three concrete business recommendations. The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
-***
 
 ## Data
 
-Describe the data being used for this project.
+The data in question that has been collated for this project has been gathered from the ever-popular ratings site, Rotten Tomatoes. In order to understand what to do in the present and future, the analysis needed to explore what has been effective and successful in the past. Our focal variables were:
+- `review_score` – represents the average score given to the movie by critics from the website.
+- `box_office` – refers to gross USA revenue in U.S. dollars.
+- `genre` – the style or category of the movie. Up to three different genres can be attributed to a single film.
+- `rating` - the given movie rating, ranging from G, PG-13, MA and R.
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+This project uses descriptive analysis, icluding comparisons between values, therefore providing an insightful overview of movie success and identify genres that go above the rest.
 
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+Unlike what many people may suspect, there was no correlation found between Review Scores and the Revenue, as seen in this scatterplot:
+![review_vs_revenue.png](./images/review_vs_revenue.png)
 
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
+However there were clear winners when it came to which genres and ratings did well in revenue. The genre "Science Fiction and Fantasy" had the highest average revenue at just under $70 million USD, and the movie rating PG-13 one out against the rest, with an average of just under $60 million USD.
+![revenue_genre.png](./images/revenue_genre.png)
+![revenue_rating.png](./images/revenue_rating.png)
 
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
-
+With this analysis, I therefore make the following three recommendations for the beginning of the new Microsoft Movie Production Studio:
+- **First, focus on producing movies with the Genre of Science & Fiction**. With this high performing genre regarding revenue, it will lead into the stability of the business venture by affording it enough budgets to continue making movies in the future.
+- **Second, the cornerstone of these movies should be based around a PG-13 rating**. Combining this profitable rating with the previously mentioned genre will give the studio it's best chance at success when first starting out.
+- 
 ***
 Questions to consider:
 * What would you recommend the business do as a result of this work?
@@ -70,7 +53,7 @@ Questions to consider:
 
 Please review our full analysis in [our Jupyter Notebook] or our [presentation].
 
-For any additional questions, please contact **Jocelyn, jocelynclaire216@gmail.com**
+For any additional questions, please contact **Jocelyn** at  **[jocelynclaire216@gmail.com](mailto:jocelynclaire216@gmail.com)**
 
 ## Repository Structure
 
