@@ -4,12 +4,12 @@
 
 ## Overview
 
-Movie’s have never been more popular, or more rewarding to make. But with so much out there to compete against, it can be daunting for a new movie production studio to know where to begin. To tackle this business problem and to see what is considered a successful film in this day and age, this project delves into the various different genres of movies to find the trends of how they rank in reviews and revenue. Using data sourced from one of the most prevalent rating sites, [Rotten Tomatoes](https://www.rottentomatoes.com), the data analysis finds that the genre Science Fiction & Fantasy, with a movie rating of PG-13, to be the most profitable type of movie. Our recommendations therefore suggest that Microsoft’s new production studio focus on this specific combination for their first production to ensure the best start to the business.
+Now that Covid-19 has slowed, filming has become easier again and cinemas are opening once more. The movie making industry is in the midst of recovering from one of the biggest slumps it has gone through, and Microsoft wants to use this oppotunity to start their own production studio and ride the wave of resurgence. But with so many well-known studios already out there to compete against, it can be daunting for a new production studio to know where to begin. To tackle this business problem and to see what is considered a successful film in this day and age, this project delves into the various different genres and ratings of movies to find the trends of how they rank in revenue, and whether there is correlation to reviews. Using data sourced from one of the most prevalent rating sites, [Rotten Tomatoes](https://www.rottentomatoes.com), the data analysis finds that the genre Science Fiction & Fantasy, with a movie rating of PG-13, to be the most profitable type of movie. Our recommendations therefore suggest that Microsoft’s new production studio focus on this specific combination for their first production to ensure the best start to the business.
 
 
 ## Business Problem
 
-The core reason the studio was created is because of the enticing profits other large businesses are making from this type of commercial venture, however this massive competition also poses the main problem faced. In order to make an impact on such a large industry, the studio needs to be able to get above the rest by looking at what a successful type of movie actually is. For the business world, this would be considered the gross box office or revenue a film makes. Understanding what makes a pofitable movie will ensure not only a great start, but a continuous lucrative enterprise for years to come.
+The core reason the studio was created is because of the enticing profits other large businesses have been making from this type of commercial venture, however this massive competition also poses the main problem faced. In order to make an impact on such a large industry, the studio needs to be able to get above the rest by looking at what a successful type of movie actually is. For the business world, this would be considered the gross box office or revenue a film makes. Understanding what makes a pofitable movie will not only ensure a great start, but also safeguard funds and budgets for films they wish to make further down the track, therefore securing a continuous lucrative enterprise for years to come.
 
 
 ## Data
@@ -31,7 +31,7 @@ This project uses descriptive analysis, icluding comparisons between values, the
 Unlike what many people may suspect, there was no correlation found between Review Scores and the Revenue, as seen in this scatterplot:
 ![review_vs_revenue.png](./images/review_vs_revenue.png)
 
-However there were clear winners when it came to which genres and ratings did well in revenue. The genre "Science Fiction and Fantasy" had the highest average revenue at just under $70 million USD, and the movie rating PG-13 one out against the rest, with an average of just under $60 million USD.
+However there were clear winners when it came to which genres and ratings did well in revenue. The genre "Science Fiction and Fantasy" had the highest average revenue at just under $70 million USD, and the movie rating PG-13 won out against the rest, with an average of just under $60 million USD.
 ![revenue_genre.png](./images/revenue_genre.png)
 ![revenue_rating.png](./images/revenue_rating.png)
 
@@ -39,9 +39,10 @@ However there were clear winners when it came to which genres and ratings did we
 ## Conclusions
 
 With this analysis, I therefore make the following three recommendations for the beginning of the new Microsoft Movie Production Studio:
-- **First, focus on producing movies with the Genre of Science & Fiction**. With this high performing genre regarding revenue, it will lead into the stability of the business venture by affording it enough budgets to continue making movies in the future.
-- **Second, the cornerstone of these movies should be based around a PG-13 rating**. Combining this profitable rating with the previously mentioned genre will give the studio it's best chance at success when first starting out.
-- 
+- First, focus on producing movies with the Genre of Science & Fiction. With this high performing genre regarding revenue, it will lead into the stability of the business venture by affording it enough budgets to continue making movies in the future.
+- Second, the cornerstone of these movies should be based around a PG-13 rating. Combining this profitable rating with the previously mentioned genre will give the studio it's best chance at success when first starting out.
+- Lastly, once revenue and funds have been accomplished, the studio can diversify into the highly rated genres of Documentary and Art House & International, to start to make a creative impact within the industry.
+
 ***
 Questions to consider:
 * What would you recommend the business do as a result of this work?
@@ -53,7 +54,7 @@ Questions to consider:
 
 Please review our full analysis in [our Jupyter Notebook] or our [presentation].
 
-For any additional questions, please contact **Jocelyn** at  **[jocelynclaire216@gmail.com](mailto:jocelynclaire216@gmail.com)**
+For any additional questions, please contact **Jocelyn Fisher** at  **[jocelynclaire216@gmail.com](mailto:jocelynclaire216@gmail.com)**
 
 ## Repository Structure
 
