@@ -29,11 +29,11 @@ This project uses descriptive analysis, icluding comparisons between values, the
 ## Results
 
 Unlike what many people may suspect, there was no correlation found between Review Scores and the Revenue, as seen in this scatterplot:
-![review_vs_revenue.png](./images/review_vs_revenue.png)
+![review_vs_revenue.png](./review_vs_revenue.png)
 
 However there were clear winners when it came to which genres and ratings did well in revenue. The genre "Science Fiction and Fantasy" had the highest average revenue at just under $70 million USD, and the movie rating PG-13 won out against the rest, with an average of just under $60 million USD.
-![revenue_genre.png](./images/revenue_genre.png)
-![revenue_rating.png](./images/revenue_rating.png)
+![revenue_genre.png](./revenue_genre.png)
+![revenue_rating.png](./revenue_rating.png)
 
 
 ## Conclusions
