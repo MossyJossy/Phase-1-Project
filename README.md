@@ -49,7 +49,7 @@ Further analysis could produce supplementary understanding of what is considered
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](Movie Genre Analysis.ipynb) or our [Presentation].
+Please review our full analysis in our [Jupyter Notebook](Movie_Genre_Analysis.ipynb) or our [Presentation].
 
 For any additional questions, please contact **Jocelyn Fisher** at **[jocelynclaire216@gmail.com](mailto:jocelynclaire216@gmail.com)**
 
