@@ -25,10 +25,10 @@ This project uses descriptive analysis and looks into trends over time. This pro
 ## Results
 
 Most movies that do well financially do seem to be within the review score of 6 to 7 out of a total of 10, therefore showcasing that movies that are generally well received also do well in overall profits.
-![review_vs_revenue.png](.images/review_vs_revenue.png)
+![review_vs_revenue.png](images/review_vs_revenue.png)
 
 When delving into the genre specific data, there were clear winners when it came to which genres did well in revenue. The genre "Animation" had the highest average revenue at just under $250 million USD. This success could be attributed to the fact that animated films are often associate with family friendly movies, which can be an extremely large customer base but also very diverse. The genres of Adventure and Sci-Fi came in as a close second and third in revenue as well.
-![revenue_genre.png](.images/revenue_genre.png)
+![revenue_genre.png](images/revenue_genre.png)
 
 There are peaks at specific months of the year that showcase increased movie revenue, likely because they are around the school vacation or holiday periods. This can also be because in order for a movie to qualify for the next round of Oscars and other Academy Awards, it needs to have been on general release before 31st December of the year prior.
 ![]()
