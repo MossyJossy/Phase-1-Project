@@ -44,16 +44,12 @@ With this analysis, I therefore make the following three recommendations for the
 Further analysis could produce supplementary understanding of what is considered a successful movie:
 - **Investigate what is understood to be an under-performing movie**. This modelling can be done with the current available data and provide insight into which genres do *not* do well regarding revenue and reviews and therefore which ones pose a higher risk to produce.
 - **Analyse which movie ratings (such as PG, MA and R) do well regarding reviews and revenue**. Using further external data sources to correlate this information, this could help hone the scope of what is considered a successful movie.
--**Combine the review data with sources from other rating sites and the Academy Awards**. This data will have a more sophisticated, overall understanding of what is considered a film that is worth watching.
+- **Combine the review data with sources from other rating sites and the Academy Awards**. This data will have a more sophisticated, overall understanding of what is considered a film that is worth watching.
 
-***
-Questions to consider:
-* What are some reasons why your analysis might not fully solve the business problem?
-***
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook] or our [presentation].
+Please review our full analysis in [our Jupyter Notebook](Movie Genre Analysis.ipynb) or our [Presentation].
 
 For any additional questions, please contact **Jocelyn Fisher** at **[jocelynclaire216@gmail.com](mailto:jocelynclaire216@gmail.com)**
 
