@@ -4,7 +4,7 @@
 
 ## Overview
 
-Now that Covid-19 has slowed, filming has become easier again and cinemas are opening once more. The movie making industry is in the midst of recovering from one of the biggest slumps it has gone through, and Microsoft wants to use this opportunity to start their own production studio and ride the wave of resurgence. But with so many well-known studios already out there with industry knowledge that Microsoft simply does not yet have, it can be daunting for a new studio to know where to begin. To tackle this business problem and to see what is considered a successful film, this project delves into the various different genres of movies to find the trends of how they rank in revenue and ratings, and what is the best time for a movie to be released to cinemas. Using movie data sourced from one of the most prevalent rating sites, [IMDb](https://www.imdb.com/) collated with financial data from [Box Office Mojo](https://www.boxofficemojo.com/), the data analysis finds that the genres Animation, Adventure and Sci-Fi to be the most profitable type of movie with equally good reviews. The data also showcases the months of the year where the most profits can be seen for movie release dates. Our recommendations therefore suggest that Microsoft’s new produce an Animated film with the genres of Adventure and Sci-Fi, and release to cinemas with the month of *insert months* for their first production to ensure the best start to the business.
+Now that Covid-19 has slowed, filming has become easier again and cinemas are opening once more. The movie making industry is in the midst of recovering from one of the biggest financial slumps, and Microsoft wants to use this opportunity to start their own production studio and ride the wave of resurgence. But with so many well-known studios already out there with industry knowledge that Microsoft simply does not yet have, it can be daunting for a new studio to know where to begin. To tackle this business problem and to see what is considered a successful film, this project delves into the various different genres of movies to find the trends of how they rank in revenue and ratings, and what is the best time of the year for a movie to be released to cinemas. Using movie data sourced from one of the most prevalent rating sites, [IMDb](https://www.imdb.com/) collated with financial data from [The Numbers](https://www.boxofficemojo.com/), the data analysis finds that the genres Animation, Adventure and Sci-Fi to be the most profitable type of movie with equally good reviews. The data also showcases that a cinmea release in the month of June to be the most successful. Our recommendations therefore suggest that Microsoft’s new studio for their first production create an Animated film with the genres of Adventure and Sci-Fi, release to cinemas with the month of June, and avoid the genres of News, War and Western to ensure the best start to the business.
 
 
 ## Business Problem
@@ -14,42 +14,44 @@ Microsoft has endeavoured to enter the movie making business by creating their o
 
 ## Data
 
-The data I have used to analyse for this project includes movie information from one of the most prevalent and well-known movie rating sites, IMDb, and the financial website Box Office Mojo run by the same company. The reason this data was chosen is because it had the largest spread of movies at over 2800. Once collated and joined, the data files provided the financial data for each movie (including production value and worldwide gross revenue), as well as other key characteristics such as genres and month of release.
+The data I have used to analyse for this project includes movie information from one of the most prevalent and well-known movie rating sites, IMDb, and the financial website The Numbers. The reason this data was chosen is because once collated and joined it had the largest spread of movies at over 2,800. The data files provided the financial data and review scores for each movie (including production value and worldwide gross revenue), as well as other key characteristics such as genres and month of release.
 
 
 ## Methods
 
-This project uses descriptive analysis and looks into trends over time. This provides an insightful overview of movie type success in order to identify genres that are financially profitable and well-reviewed, as well as which month of cinema release is best.
+This project uses descriptive analysis to provide an insightful overview of movie type success in order to identify genres that are financially profitable and well-reviewed, as well as which month of cinema release is best.
 
 
 ## Results
 
-Most movies that do well financially do seem to be within the review score of 6 to 7 out of a total of 10, therefore showcasing that movies that are generally well received also do well in overall profits.
+Most movies that do well financially do seem to be within the review score of 6 to 7 out of a total of 10. From this analysis Microsoft can be confident that a successful movie is based around the revenue that it makes, as often those are movies that are well liked by the public.
 ![review_vs_revenue.png](images/review_vs_revenue.png)
 
-When delving into the genre specific data, there were clear winners when it came to which genres did well in revenue. The genre "Animation" had the highest average revenue at just under $250 million USD. This success could be attributed to the fact that animated films are often associate with family friendly movies, which can be an extremely large customer base but also very diverse. The genres of Adventure and Sci-Fi came in as a close second and third in revenue as well.
+The genre "Animation" had the highest average revenue at just under $250 million USD. This success could be attributed to the fact that animated films are often associate with family friendly movies, which can be an extremely large customer base but also very diverse. The genres of Adventure and Sci-Fi came in as a close second and third in revenue as well. War, Western and News were the worst performing, for the first two this could possibly be due to the often high production values associated with these types of movies.
 ![revenue_genre.png](images/revenue_genre.png)
 
-There are peaks at specific months of the year that showcase increased movie revenue, likely because they are around the school vacation or holiday periods. This can also be because in order for a movie to qualify for the next round of Oscars and other Academy Awards, it needs to have been on general release before 31st December of the year prior.
-![]()
+There are peaks in the months of March, June, July and November that showcase increased movie revenue. June's profitability is likely because this is during the Winter/Summer school holiday periods. The November peak can be attributed to the fact that in order for a movie to qualify for the next round of Academy Awards, it needs to have been on general release before 31st December of the year prior. Studios will often release movies that they want to qualify for these awards during this month.
+![revenue_month.png](images/revenue_month.png)
 
 ## Conclusions
 
 With this analysis, I therefore make the following three recommendations for the beginning of the new Microsoft Movie Production Studio:
-- **The studio should focus on producing animated films**. Not only is this category of movie extremely profitable, but it is also very diverse and has a large and stable audience base.
-- **Combine the genres of Adventure and Sci-Fi for the first movie**. This profitable combination will lead into the stability of the business venture by ensuring it has enough funds and budget to continue making movies in the future.
-- **The cinema release dates of the first movie should be during the months of *insert months here***. These months have been showcased to be a good financial period, but it also means the movies will be qualified to be reviewed for the next Academy Awards.
+
+- **The studio should focus on producing animated films.** Not only is this category of movie extremely profitable, but it is also very diverse and has a large and stable audience base. Combined with the genres of Adventure and Sci-Fi for the first movie, this profitable combination will lead into the stability of the business venture by ensuring it has enough funds and budget to continue making movies in the future.
+- **Avoid the genres of War and Western.** These were extremely underperforming when it came to revenue, possibly due to the often high production values of these types of genres, which means less room for error when it comes to box office takings. 
+- **The cinema release dates of the first movie should be during the month of June.** This month in particular has been showcased to be the best financial period for cinema release, but it also means the movies will be qualified to be reviewed for the next Academy Awards.
 
 ### Next Steps
 Further analysis could produce supplementary understanding of what is considered a successful movie:
-- **Investigate what is understood to be an under-performing movie**. This modelling can be done with the current available data and provide insight into which genres do *not* do well regarding revenue and reviews and therefore which ones pose a higher risk to produce.
-- **Analyse which movie ratings (such as PG, MA and R) do well regarding reviews and revenue**. Using further external data sources to correlate this information, this could help hone the scope of what is considered a successful movie.
-- **Combine the review data with sources from other rating sites and the Academy Awards**. This data will have a more sophisticated, overall understanding of what is considered a film that is worth watching.
+
+- **Analyse which movie ratings (such as PG, MA and R) do well regarding reviews and revenue.** Using further external data sources to correlate this information, this could help hone the scope of what is considered a successful movie.
+- **Investigate possible trends over the past decade.** This will help showcase further understanding into what genres have been increasing in popularity in recent times, and also what has been doing worse, providing Microsoft with better industry knowledge.
+- **Gather correlating data from the Academy Awards.** When coupled with the above analysis processes, this data may have a more sophisticated and professional understanding of what is considered a film that is worth watching.
 
 
 ## For More Information
 
-Please review our full analysis in our [Jupyter Notebook](Movie_Genre_Analysis.ipynb) or our [Presentation].
+Please review our full analysis in our [Jupyter Notebook](Movie_Success_Analysis.ipynb) or our [Presentation].
 
 For any additional questions, please contact **Jocelyn Fisher** at **[jocelynclaire216@gmail.com](mailto:jocelynclaire216@gmail.com)**
 
@@ -59,9 +61,9 @@ Describe the structure of your repository and its contents, for example:
 
 ```
 ├── __init__.py                         <- .py file that signals to python these folders contain packages
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── README.md
+├── Movie_Success_Analysis.ipynb
+├── Movie_Success_Presentation.pdf
 ├── code
 │   ├── __init__.py                     <- .py file that signals to python these folders contain packages
 │   ├── visualizations.py               <- .py script to create finalized versions of visuals for project
