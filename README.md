@@ -60,15 +60,11 @@ For any additional questions, please contact **Jocelyn Fisher** at **[jocelyncla
 Describe the structure of your repository and its contents, for example:
 
 ```
-├── __init__.py                         <- .py file that signals to python these folders contain packages
 ├── README.md
 ├── Movie_Success_Analysis.ipynb
 ├── Movie_Success_Presentation.pdf
 ├── code
-│   ├── __init__.py                     <- .py file that signals to python these folders contain packages
-│   ├── visualizations.py               <- .py script to create finalized versions of visuals for project
-│   ├── data_preparation.py             <- .py script used to pre-process and clean data
-│   └── eda_notebook.ipynb              <- Notebook containing data exploration
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+│   ├── data
+│   └── Data_Cleaning.ipynb
+└── images
 ```
