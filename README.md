@@ -38,7 +38,7 @@ There are peaks in the months of March, June, July and November that showcase in
 With this analysis, I therefore make the following three recommendations for the beginning of the new Microsoft Movie Production Studio:
 
 - **The studio should focus on producing animated films.** Not only is this category of movie extremely profitable, but it is also very diverse and has a large and stable audience base. Combined with the genres of Adventure and Sci-Fi for the first movie, this profitable combination will lead into the stability of the business venture by ensuring it has enough funds and budget to continue making movies in the future.
-- **Avoid the genres of War and Western.** These were extremely underperforming when it came to revenue, possibly due to the often high production values of these types of genres, which means less room for error when it comes to box office takings. 
+- **Avoid the genres of War, Western & News.** These were extremely underperforming when it came to revenue, possibly due to the often high production values of these types of genres, which means less room for error when it comes to box office takings. 
 - **The cinema release dates of the first movie should be during the month of June.** This month in particular has been showcased to be the best financial period for cinema release, but it also means the movies will be qualified to be reviewed for the next Academy Awards.
 
 ### Next Steps
