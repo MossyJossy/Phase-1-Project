@@ -51,7 +51,7 @@ Further analysis could produce supplementary understanding of what is considered
 
 ## For More Information
 
-Please review our full analysis in our [Jupyter Notebook](Movie_Success_Analysis.ipynb) or our [Presentation].
+Please review our full analysis in our [Jupyter Notebook](Movie_Success_Analysis.ipynb) or our [Presentation](Movie_Success_Presentation.pdf).
 
 For any additional questions, please contact **Jocelyn Fisher** at **[jocelynclaire216@gmail.com](mailto:jocelynclaire216@gmail.com)**
 
@@ -60,11 +60,11 @@ For any additional questions, please contact **Jocelyn Fisher** at **[jocelyncla
 Describe the structure of your repository and its contents, for example:
 
 ```
-├── README.md
-├── Movie_Success_Analysis.ipynb
-├── Movie_Success_Presentation.pdf
 ├── code
 │   ├── data
 │   └── Data_Cleaning.ipynb
-└── images
+├── images
+├── Movie_Success_Analysis.ipynb
+├── Movie_Success_Presentation.pdf
+└── README.md
 ```
